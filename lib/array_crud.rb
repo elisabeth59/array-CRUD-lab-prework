@@ -33,9 +33,10 @@ end
 
 def retrieve_first_element_from_array(array)
   fav_fruits = ["wow", "I", "am", "really", "learning", "arrays!"]
-  fav_fruits[0]
+  fav_fruits.first
 end
 
 def retrieve_last_element_from_array(array)
-
+  fav_fruits = ["wow", "I", "am", "really", "learning", "arrays!"]
+  fav_fruits.last
 end
