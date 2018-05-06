@@ -3,21 +3,21 @@ def create_an_empty_array
 end
 
 def create_an_array
-  fav_fruits = ["apples", "oranges", "bananas", "peaches"]
+  fav_fruits = ["wow", "I", "am", "really", "learning"]
 end
 
 def add_element_to_end_of_array(array, element)
-  fav_fruits = ["apples", "oranges", "bananas", "peaches"]
+  fav_fruits = ["wow", "I", "am", "really", "learning"]
   fav_fruits.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  fav_fruits = ["apples", "oranges", "bananas", "peaches", "arrays!"]
+  fav_fruits = ["wow", "I", "am", "really", "learning", "arrays!"]
   fav_fruits.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  fav_fruits = ["wow", "apples", "oranges", "bananas", "peaches", "arrays!"]
+  fav_fruits = ["wow", "I", "am", "really", "learning", "arrays!"]
   arrays_fruits = fav_fruits.pop
 end
 
