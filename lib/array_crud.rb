@@ -22,12 +22,12 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  fav_fruits = ["wow", "apples", "oranges", "bananas", "peaches"]
+  fav_fruits = ["wow", "I", "am", "really", "learning"]
   wow_fruits = fav_fruits.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  fav_fruits = ["wow", "apples", "oranges", "bananas", "peaches", "arrays!"]
+  fav_fruits = ["wow", "I", "am", "really", "learning", "arrays!"]
   fav_fruits[2]
 end
 
